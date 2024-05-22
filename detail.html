@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | BUTCHER</title>
+    <link rel="stylesheet" href="products2.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1169929376016650342/1182388329149378620/cow.png?ex=658483f1&is=65720ef1&hm=ac35c795f08e8a9f8303ccdd8290c0338e2410a5b470d7d44ac03460d2fffcac&"
+</head>
+<body>
+    <ul class="ul1">
+        &nbsp;&nbsp;Αυθημερόν Παράδοση στο χώρο σας Τηλ.: 210 4633949 - Ελάχιστη Παραγγελία: 30€ 
+    </ul>
+
+        <div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="info.html">Info</a>
+                <a href="products2.html">Products</a>
+                <a href="contactus.html">Contact Us</a>
+                <div class="animation start-home"></div>
+            </nav>
+        </div>
+    <center>
+        <H1>
+            <img src="../../tpa/images/logo2.png" style="width: 100px;" alt="photo" class="logo">
+        </H1>
+    </center>
+
+
+    
+    <div class="container">
+        <div class="title">PRODUCT DETAIL</div>
+        <div class="detail">
+            <div class="image">
+                <img src="tpa/images/arni 1.png" alt="">
+            </div>
+            <div class="content">
+                <h1 class="name"></h1>
+                <div class="price"></div>
+                <div class="buttons">
+                    <button>Check Out</button>
+                    <button>Add To Cart 
+                        <span>
+                            <svg class="" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+                <div class="description"></div>
+            </div>
+        </div>
+
+        <div class="title">Similar product</div>
+        <div class="listProduct"></div>
+    </div>
+        
+
+
+
+
+
+    <ul class="ul2">
+            
+        © All rights reserved 2023 - BUTCHER - Κατασκευή ιστοσελίδων- Takis AE
+            
+    </ul>
+
+
+    <script>
+        let products = null;
+        fetch('products2.json')
+        .then(response => response.json())
+        .then(data => {
+            products = data;
+            showDetail();
+        })
+
+        function showDetail (){
+            let detail = document.querySelector('.detail');
+            let productId = new URLSearchParams(window.location.search).get('id');
+            let thisProduct = products.filter(value => {
+                return value.id == productId
+            })[0];
+
+            if(!thisProduct){
+                window.location.href = "/";
+            }
+
+            detail.querySelector('.image img').src = thisProduct.image;
+            detail.querySelector('.name').innerText = thisProduct.name;
+            detail.querySelector('.price').innerText =  thisProduct.price;
+            detail.querySelector('.description').innerText = thisProduct.description;
+
+
+            let listProduct =document.querySelector('.listProduct');
+            (products.filter(value => value.id != productId))
+            .forEach(product => {
+                let newProduct = document.createElement('a');
+                newProduct.href = 'detail.html?id=' + product.id;
+                newProduct.classList.add('item');
+                newProduct.innerHTML = `
+                    <img src="${product.image}" alt="">
+                    <h2>${product.name}</h2>
+                    <div class="price">$${product.price}</div>
+                `;
+                listProduct.appendChild(newProduct);
+            })
+
+        }
+
+    </script>
+</body>
+</html>

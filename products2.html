@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | BUTCHER</title>
+    <link rel="stylesheet" href="products2.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1169929376016650342/1182388329149378620/cow.png?ex=658483f1&is=65720ef1&hm=ac35c795f08e8a9f8303ccdd8290c0338e2410a5b470d7d44ac03460d2fffcac&">
+</head>
+<body>
+    <ul class="ul1">
+        &nbsp;&nbsp;Αυθημερόν Παράδοση στο χώρο σας Τηλ.: 210 4633949 - Ελάχιστη Παραγγελία: 30€
+    </ul>
+
+        <div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="info.html">Info</a>
+                <a href="products2.html">Products</a>
+                <a href="contactus.html">Contact Us</a>
+                <div class="animation start-home"></div>
+            </nav>
+        </div>
+        <CENTER>
+            <H1>
+              <img src="images/logo2.png" style="width: 100px;" alt="photo" class="logo">
+            </H1>
+
+
+
+
+    <div class="container">
+        <div class="title">Product List</div>
+        <div class="listProduct"></div>
+    </div>
+
+    
+
+    <ul class="ul2">
+            
+        © All rights reserved 2023 - BUTCHER - Κατασκευή ιστοσελίδων- Takis AE
+            
+    </ul>
+
+    <script>
+        let products = null;
+        fetch('products2.json')
+        .then(response => response.json())
+        .then(data =>{
+            products = data;
+            console.log(products);
+            addDataToHTML();
+        })
+
+        let listProduct = document.querySelector('.listProduct');
+        function addDataToHTML(){
+            products.forEach(product => {
+                let newProduct = document.createElement('a');
+                newProduct.href = 'detail.html?id=' + product.id;
+                newProduct.classList.add('item');
+                newProduct.innerHTML = `
+                    <img src="${product.image}">
+                    <h2>${product.name}</h2>
+                    <div class="price">${product.price}</div>
+                `;
+
+                listProduct.appendChild(newProduct);
+            })
+        }
+    </script>
+</body>
+</html>

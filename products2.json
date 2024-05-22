@@ -1,0 +1,459 @@
+[
+    {
+        "id": 1,
+        "name":" Αρνίσιο μπούτι Ελλάδος το κιλό ",
+        "price": "15,99€",
+        "image": "images/arni 1.png",
+        "description": "Αρνίσιο μπούτι Ελλάδος το κιλό"
+    },
+    {
+        "id": 2,
+        "name":" Αρνίσιο χέρι Ελλάδος το κιλό",
+        "price": "15,99€",
+        "image": "images/arni 1.png",
+        "description": "Αρνίσιο χέρι Ελλάδος το κιλό"
+    },
+    {
+        "id": 3,
+        "name":" Κεφαλάκι αρνί τεμάχιο",
+        "price": "2,50€",
+        "image": "images/arni 3.png",
+        "description": "Κεφαλάκι αρνί τεμάχιο"
+    },
+    {
+        "id": 4,
+        "name":" Ολόκληρο αρνί Ελλάδος το κιλό",
+        "price": "14,99€",
+        "image": "images/arni 4.png",
+        "description": "Ολόκληρο αρνί Ελλάδος το κιλό"
+    },
+    {
+        "id": 5,
+        "name":" Παϊδάκια αρνίσια Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/arni 5.png",
+        "description": "Παϊδάκια αρνίσια Ελλάδος 500gr"
+    },
+    {
+        "id": 6,
+        "name":" Συκωταριά αρνίσια Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/arni 6.png",
+        "description": "Συκωταριά αρνίσια Ελλάδος 500gr"
+    },
+    {
+        "id": 7,
+        "name":" Γαλοπούλα ολόκληρη το κιλό",
+        "price": "15,99€",
+        "image": "images/galopoula 1.png",
+        "description": "Γαλοπούλα ολόκληρη το κιλό"
+    },
+    {
+        "id": 8,
+        "name":" Γαλοπούλα φιλέτο Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/galopoula 1.png",
+        "description": "Γαλοπούλα φιλέτο Ελλάδος 500gr"
+    },
+
+    {
+        "id": 9,
+        "name":" Κατσικίσιο μπούτι Ελλάδος το κιλό",
+        "price": "15,99€",
+        "image": "images/arni 1.png",
+        "description": "Κατσικίσιο μπούτι Ελλάδος το κιλό"
+    },
+
+    {
+        "id": 10,
+        "name":" Κατσικίσιο χέρι Ελλάδος το κιλό",
+        "price": "15,99€",
+        "image": "images/arni 1.png",
+        "description": "Κατσικίσιο χέρι Ελλάδος το κιλό"
+    },
+
+    {
+        "id": 11,
+        "name":" Κεφαλάκι κατσίκι τεμάχιο",
+        "price": "15,99€",
+        "image": "images/katsiki 3.png",
+        "description": "Κεφαλάκι κατσίκι τεμάχιο"
+    },
+
+    {
+        "id": 12,
+        "name":" Ολόκληρο κατσίκι Ελλάδος το κιλό",
+        "price": "15,99€",
+        "image": "images/arni 4.png",
+        "description": "Ολόκληρο κατσίκι Ελλάδος το κιλό"
+    },
+
+    {
+        "id": 13,
+        "name":" Παϊδάκια κατσικίσια Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/arni 5.png",
+        "description": "Παϊδάκια κατσικίσια Ελλάδος 500gr"
+    },
+
+    {
+        "id": 14,
+        "name":" Συκωταριά κατσικίσια Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/arni 6.png",
+        "description": "Συκωταριά κατσικίσια Ελλάδος 500gr"
+    },
+
+    {
+        "id": 15,
+        "name":" Κοπανάκι κοτόπουλο το κιλό",
+        "price": "15,99€",
+        "image": "images/kotopoulo 1.png",
+        "description": "Κοπανάκι κοτόπουλο το κιλό"
+    },
+
+    {
+        "id": 16,
+        "name":" Κοτομπουκιές 500gr",
+        "price": "15,99€",
+        "image": "images/kotopoulo 1.png",
+        "description": "Κοτομπουκιές 500gr"
+    },
+
+    {
+        "id": 17,
+        "name":" Κοτόπουλο μπούτι Ελλάδος το κιλό",
+        "price": "15,99€",
+        "image": "images/kotopoulo 1.png",
+        "description": "Κοτόπουλο μπούτι Ελλάδος το κιλό"
+    },
+
+    {
+        "id": 18,
+        "name":" Κοτόπουλο ολόκληρο Ελλάδος το κιλό",
+        "price": "15,99€",
+        "image": "images/kotopoulo 4.png",
+        "description": "Κοτόπουλο ολόκληρο Ελλάδος το κιλό"
+    },
+
+    {
+        "id": 19,
+        "name":" Κοτόπουλο στήθος με οστό Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/kotopoulo 5.png",
+        "description": "Κοτόπουλο στήθος με οστό Ελλάδος 500gr"
+    },
+
+    {
+        "id": 20,
+        "name":" Κοτόπουλο στήθος φιλέτο Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/kotopoulo 5.png",
+        "description": "Κοτόπουλο στήθος φιλέτο Ελλάδος 500gr"
+    },
+
+    {
+        "id": 21,
+        "name":" Κοτόπουλο φιλέτο μπούτι με μέλι & μουστάρδα 500gr",
+        "price": "15,99€",
+        "image": "images/kotopoulo 7.png",
+        "description": "Κοτόπουλο φιλέτο μπούτι με μέλι & μουστάρδα 500gr"
+    },
+
+    {
+        "id": 22,
+        "name":" Σνίτσελ κοτόπουλο 500gr",
+        "price": "15,99€",
+        "image": "images/kotopoulo 8.png",
+        "description": "Σνίτσελ κοτόπουλο 500gr"
+    },
+
+    {
+        "id": 23,
+        "name":" Σουβλάκι κοτόπουλο χειροποίητο 500gr",
+        "price": "15,99€",
+        "image": "images/kotopoulo 9.png",
+        "description": "Σουβλάκι κοτόπουλο χειροποίητο 500gr"
+    },
+
+    {
+        "id": 24,
+        "name":" Φτερούγες κοτόπουλου Ελλάδος το κιλό",
+        "price": "15,99€",
+        "image": "images/kotopoulo 10.png",
+        "description": "Φτερούγες κοτόπουλου Ελλάδος το κιλό"
+    },
+
+    {
+        "id": 25,
+        "name":" Φτερούγες μαριναρισμένες με barbecue σως",
+        "price": "15,99€",
+        "image": "images/kotopoulo 10.png",
+        "description": "Φτερούγες μαριναρισμένες με barbecue σως"
+    },
+
+    {
+        "id": 26,
+        "name":" Κουνέλι ολόκληρο το κιλό",
+        "price": "15,99€",
+        "image": "images/kouneli 1.png",
+        "description": "Κουνέλι ολόκληρο το κιλό"
+    },
+
+    {
+        "id": 27,
+        "name":" Ελιά μοσχαρίσια 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 1.png",
+        "description": "Ελιά μοσχαρίσια 500gr"
+    },
+
+    {
+        "id": 28,
+        "name":" Κιλότο μοσχαρίσιο Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 2.png",
+        "description": "Κιλότο μοσχαρίσιο Ελλάδος 500gr"
+    },
+
+    {
+        "id": 29,
+        "name":" Μπριζόλα μοσχαρίσια γάλακτος Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 3.png",
+        "description": "Μπριζόλα μοσχαρίσια γάλακτος Ελλάδος 500gr"
+    },
+
+    {
+        "id": 30,
+        "name":" Μπριζόλα μοσχαρίσια Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 4.png",
+        "description": "Μπριζόλα μοσχαρίσια Ελλάδος 500gr"
+    },
+
+    {
+        "id": 31,
+        "name":" Νουά μπούτι μοσχαρίσιο Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 5.png",
+        "description": "Νουά μπούτι μοσχαρίσιο Ελλάδος 500gr"
+    },
+
+    {
+        "id": 32,
+        "name":" Οσομπούκο μοσχαρίσιο Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 6.png",
+        "description": "Οσομπούκο μοσχαρίσιο Ελλάδος 500gr"
+    },
+
+    {
+        "id": 33,
+        "name":" Πατσάς μοσχαρίσιος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 7.png",
+        "description": "Πατσάς μοσχαρίσιος 500gr"
+    },
+
+    {
+        "id": 34,
+        "name":"  Πόδια μοσχαρίσια 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 8.png",
+        "description": " Πόδια μοσχαρίσια 500gr"
+    },
+
+    {
+        "id": 35,
+        "name":" Ποντίκι μοσχαρίσιο Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 9.png",
+        "description": "Ποντίκι μοσχαρίσιο Ελλάδος 500gr"
+    },
+
+    {
+        "id": 36,
+        "name":" Σιδηρόδρομος μοσχαρίσιος Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 10.png",
+        "description": "Σιδηρόδρομος μοσχαρίσιος Ελλάδος 500gr"
+    },
+
+    {
+        "id": 37,
+        "name":" Σπάλα μοσχαρίσια Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 11.png",
+        "description": "Σπάλα μοσχαρίσια Ελλάδος 500gr"
+    },
+
+    {
+        "id": 38,
+        "name":" Σπαλομίτα μοσχαρίσια Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 12.png",
+        "description": "Σπαλομίτα μοσχαρίσια Ελλάδος 500gr"
+    },
+
+    {
+        "id": 39,
+        "name":" Σπλήνα μοσχαρίσια 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 13.png",
+        "description": "Σπλήνα μοσχαρίσια 500gr"
+    },
+
+    {
+        "id": 40,
+        "name":" Στήθος μοσχαρίσιο Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 14.png",
+        "description": "Στήθος μοσχαρίσιο Ελλάδος 500gr"
+    },
+
+    {
+        "id": 41,
+        "name":" Στρογγυλό μοσχαρίσιο Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 15.png",
+        "description": "Στρογγυλό μοσχαρίσιο Ελλάδος 500gr"
+    },
+
+    {
+        "id": 42,
+        "name":" Συκώτι μοσχαρίσιο Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 16.png",
+        "description": "Συκώτι μοσχαρίσιο Ελλάδος 500gr"
+    },
+
+    {
+        "id": 43,
+        "name":" Τρανς μοσχαρίσιο Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 17.png",
+        "description": "Τρανς μοσχαρίσιο Ελλάδος 500gr"
+    },
+
+    {
+        "id": 44,
+        "name":" Φιλέτο μοσχαρίσιο Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 18.png",
+        "description": "Φιλέτο μοσχαρίσιο Ελλάδος 500gr"
+    },
+
+    {
+        "id": 45,
+        "name":" Χτένι μοσχαρίσιο Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 19.png",
+        "description": "Χτένι μοσχαρίσιο Ελλάδος 500gr"
+    },
+
+    {
+        "id": 46,
+        "name":" Κιμάς ελιά μοσχαρίσιος Ελλάδος 1 κιλό",
+        "price": "15,99€",
+        "image": "images/mosxari 20.png",
+        "description": "Κιμάς ελιά μοσχαρίσιος Ελλάδος 1 κιλό"
+    },
+
+    {
+        "id": 47,
+        "name":" Κιμάς ελιά μοσχαρίσιος Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/mosxari 21.png",
+        "description": "Κιμάς ελιά μοσχαρίσιος Ελλάδος 500gr"
+    },
+
+    {
+        "id": 48,
+        "name":" Κότσι χοιρινό Ελλάδος 1Kg",
+        "price": "15,99€",
+        "image": "images/xoirino 1.png",
+        "description": "Κότσι χοιρινό Ελλάδος 1Kg"
+    },
+
+    {
+        "id": 49,
+        "name":" Λαιμός χοιρινός χωρίς οστό Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/xoirino 2.png",
+        "description": "Λαιμός χοιρινός χωρίς οστό Ελλάδος 500gr"
+    },
+
+    {
+        "id": 50,
+        "name":" Μπούτι χοιρινό Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/xoirino 3.png",
+        "description": "Μπούτι χοιρινό Ελλάδος 500gr"
+    },
+
+    {
+        "id": 51,
+        "name":" Μπριζόλα χοιρινή κόντρα Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/xoirino 4.png",
+        "description": "Μπριζόλα χοιρινή κόντρα Ελλάδος 500gr"
+    },
+
+    {
+        "id": 52,
+        "name":" Μπριζόλα χοιρινή λαιμού με οστό Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/xoirino 5.png",
+        "description": "Μπριζόλα χοιρινή λαιμού με οστό Ελλάδος 500gr"
+    },
+
+    {
+        "id": 53,
+        "name":" Μπριζολοπανσέτα Ελλάδος 500gr (σταβλισια χοιρινή)",
+        "price": "15,99€",
+        "image": "images/xoirino 6.png",
+        "description": "Μπριζολοπανσέτα Ελλάδος 500gr (σταβλισια χοιρινή)"
+    },
+
+    {
+        "id": 54,
+        "name":" Πανσέτα χοιρινή Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/xoirino 7.png",
+        "description": "Πανσέτα χοιρινή Ελλάδος 500gr"
+    },
+
+    {
+        "id": 55,
+        "name":" Σνίτσελ χοιρινό Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/xoirino 8.png",
+        "description": "Σνίτσελ χοιρινό Ελλάδος 500gr"
+    },
+
+    {
+        "id": 56,
+        "name":" Σουβλάκι χοιρινό χειροποίητο 500gr",
+        "price": "15,99€",
+        "image": "images/xoirino 9.png",
+        "description": "Σουβλάκι χοιρινό χειροποίητο 500gr"
+    },
+
+    {
+        "id": 57,
+        "name":" Σπάλα χοιρινή Ελλάδος 500gr",
+        "price": "15,99€",
+        "image": "images/xoirino 10.png",
+        "description": "Σπάλα χοιρινή Ελλάδος 500gr"
+    },
+
+    {
+        "id": 58,
+        "name":" Ψαρονέφρι χοιρινό 500gr",
+        "price": "15,99€",
+        "image": "images/xoirino 11.png",
+        "description": "Ψαρονέφρι χοιρινό 500gr"
+    }
+
+]
